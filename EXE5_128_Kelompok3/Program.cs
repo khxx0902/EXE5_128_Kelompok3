@@ -51,6 +51,9 @@ namespace Exe3_128_Kelompok3
                 Console.WriteLine("Queue Kosong");
                 return;
             }
+            Node tampil;
+            for (tampil = Khaidar; tampil != null; tampil = tampil.next)
+                Console.WriteLine(tampil.name);
         }
         static void Main(string[] args)
         {
