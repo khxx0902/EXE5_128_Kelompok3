@@ -8,4 +8,14 @@ namespace Exe3_128_Kelompok3
         public Node next;
 
     }
+    class Queue
+    {
+        Node Khaidar, Royani;
+
+        public Queue()
+        {
+            Khaidar = null;
+            Royani = null;
+        }
+    }
 }
