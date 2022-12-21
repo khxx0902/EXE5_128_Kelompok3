@@ -40,6 +40,17 @@ namespace Exe3_128_Kelompok3
                 Console.WriteLine("Queue Kosong");
                 return;
             }
+            Khaidar = Khaidar.next;
+            if (Khaidar == null)
+                Royani = null;
+        }
+        public void display()
+        {
+            if (Khaidar == null)
+            {
+                Console.WriteLine("Queue Kosong");
+                return;
+            }
         }
     }
 }
