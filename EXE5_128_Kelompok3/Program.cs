@@ -17,5 +17,21 @@ namespace Exe3_128_Kelompok3
             Khaidar = null;
             Royani = null;
         }
+        public void insert()
+        {
+            string nm;
+            Node newNode = new Node();
+            Console.WriteLine("Masukkan Data: ");
+            nm = Console.ReadLine();
+            newNode.name = nm;
+            newNode.next = null;
+            if(Khaidar == null)
+            {
+                Khaidar = newNode;
+                Royani = newNode;
+            }
+            Royani.next = newNode;
+            Royani = newNode;
+        }
     }
 }
