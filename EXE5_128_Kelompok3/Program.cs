@@ -33,5 +33,13 @@ namespace Exe3_128_Kelompok3
             Royani.next = newNode;
             Royani = newNode;
         }
+        public void delete()
+        {
+            if (Khaidar == null)
+            {
+                Console.WriteLine("Queue Kosong");
+                return;
+            }
+        }
     }
 }
