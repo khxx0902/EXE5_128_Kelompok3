@@ -54,7 +54,12 @@ namespace Exe3_128_Kelompok3
         }
         static void Main(string[] args)
         {
+            Queue q = new Queue();
+            char ch;
+            while (true)
+            {
 
+            }
         }
     }
 }
