@@ -52,5 +52,9 @@ namespace Exe3_128_Kelompok3
                 return;
             }
         }
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
